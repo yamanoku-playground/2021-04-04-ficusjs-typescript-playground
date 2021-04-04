@@ -1,0 +1,35 @@
+{
+  "name": "ficusjs-typescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "serve": "serve",
+    "start": "npm run build && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamanoku-playground/ficusjs-typescript-playground.git"
+  },
+  "author": "yamanoku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamanoku-playground/ficusjs-typescript-playground/issues"
+  },
+  "homepage": "https://github.com/yamanoku-playground/ficusjs-typescript-playground#readme",
+  "devDependencies": {
+    "@babel/core": "7.11.1",
+    "@babel/plugin-transform-runtime": "7.11.0",
+    "@babel/preset-typescript": "7.10.4",
+    "@rollup/plugin-babel": "5.2.0",
+    "@rollup/plugin-commonjs": "15.0.0",
+    "@rollup/plugin-node-resolve": "9.0.0",
+    "ficusjs": "latest",
+    "ficusjs-renderers": "latest",
+    "rollup": "2.26.3",
+    "serve": "11.3.2",
+    "standard": "14.3.4",
+    "typescript": "3.9.7",
+    "uhtml": "2.0.1"
+  }
+}
